@@ -1,3 +1,7 @@
+
+--- ouput 
+---Team Name -- Matches Playes -- no of wins --  no of loses
+
 select team_name ,count(1) as no_of_matches_played, 
 sum(win_flag) as no_of_matches_won,
 count(1) - sum(win_flag) as no_of_loss
